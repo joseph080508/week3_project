@@ -28,3 +28,27 @@ def fetch_blockers():
             print(f"{i}. {blocker.strip()}")
         print()
 
+
+# MENU
+def menu():
+    while True:
+        print("=== Team Daily Status System ===")
+        print("1. Add Blocker")
+        print("2. Fetch Blockers")
+        print("3. Overwrite File")
+        print("4. Exit")
+
+        option = input("Choose an option: ")
+
+        if option == "1":
+            add_blocker()
+        elif option == "2":
+            fetch_blockers()
+        elif option == "3":
+            overwrite_file()
+        elif option == "4":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid option.\n")
+
