@@ -52,3 +52,23 @@ def menu():
         else:
             print("Invalid option.\n")
 
+
+
+"""
+--- ENGLISH PRACTICE SECTION ---
+
+Protocol selection (3-C Rule):
+
+1. I would reach out to the team via Slack because it is the fastest way to communicate an urgent issue.
+2. I would use Email if I need to explain the problem in more detail and keep a formal record.
+3. I would use Jira to report the issue properly and make sure it is tracked until it gets solved.
+
+
+Vocabulary integration:
+
+This script uses persistence to save the daily blockers in a file, so the information is not lost after closing the program. 
+The fetch feature allows the user to read all the saved data in a simple way. 
+Also, before doing an overwrite, the program shows a warning to avoid losing important information. 
+If something goes wrong, I can reach out to the team using the right communication channel.
+"""
+
